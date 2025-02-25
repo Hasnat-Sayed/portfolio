@@ -1,0 +1,195 @@
+body {
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #D1F8EF;
+    color: #1a1c20;
+}
+
+/*navbar*/
+
+nav{
+    background-color: #578FCA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+
+nav .left a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  nav .right a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+  }
+
+/*about me*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 110px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+.about .text h2{
+    font-size: 35px;
+}
+
+.about .headshot img{
+    width: 350px;
+    border-radius: 50%;
+  }
+
+/*skills*/
+
+.skills{
+    padding: 0 110px;
+    margin-bottom: 100px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.skills .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    padding: 20px 20px;
+    margin: 10px;
+    border: 2px solid none;
+    border-radius: 5px;
+    background-color: white
+}
+
+.skills .cells .cell span{
+    font-size: 18px;
+    font-weight: 600;
+} 
+.skills .cells .cell img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+/*projects*/
+
+.pro-sec h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.pro-sec .projects { 
+    display: flex;
+    padding: 0 110px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.box {
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    width: 33%;
+    height: 450px;
+    background-color: #a0cefe;   
+}
+.box .box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;         
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*Contact*/
+.cont-sec{
+    padding: 0px 110px;
+    margin-bottom: 100px;
+    margin-top: 100px ;
+}
+
+.cont-sec h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.cont-sec .group{
+    display: flex;
+    gap: 50px;
+}
+.cont-sec .group .text{
+   flex: 3;
+   margin-top: 20px;
+}
+
+.cont-sec .group .text a{
+    text-decoration: none;
+}
+
+
+.cont-sec .group form{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-sec .group form input,
+.cont-sec .group form textarea {
+    font-family: 'Poppins' , sans-serif;
+    border: 2px solid #578FCA;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+
+}
+
+.cont-sec .group form button{
+    font-size: 16px;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    background-color: #578FCA;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+
+}
+
+.cont-sec .group form button:hover{
+    filter: brightness(.9);
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    height: 50px;
+}

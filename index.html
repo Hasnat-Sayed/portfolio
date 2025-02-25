@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="/">Hasnat Bin Sayed</a>
+            </div>
+
+            <div class="right">
+                <a href="#about">About Me</a>
+                <a href="#skill">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>  
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+        <div class="text">
+            <h2>Hi, I am Hasnat 👋</h2>
+            <p>I am an aspiring full-stack web developer, currently improving my skills in building dynamic, responsive, and user-friendly web applications. As I pursue my BSc in Computer Science and Engineering at International Islamic University Chittagong, I am continuously learning and exploring both frontend and backend technologies.<br> With a strong passion for coding and problem-solving, I am eager to grow and contribute to innovative digital experiences.
+            </p>
+        </div>
+        
+        <div class="headshot">
+            <img src="src/me.jpg" alt="hasnat">
+          </div>
+        
+    </section>
+
+    <section id="skill" class="skills">
+        <h2>Skills</h2>
+        <div class="cells">
+            
+            <div class="cell">
+                <img src="src/html-1.svg" alt="html logo">
+                <span>HTML</span>
+            </div>
+            <div class="cell">
+                <img src="src/css-3.svg" alt="css logo">
+                <span>CSS</span>
+            </div>
+            <div class="cell">
+                <img src="src/python-5.svg" alt="py logo">
+                <span>Python</span>
+            </div>
+            <div class="cell">
+                <img src="src/c-1.svg" alt="c logo">
+                <span>C</span>
+            </div>
+
+            <div class="cell">
+                <img src="src/c.svg" alt="cpp logo">
+                <span>C++</span>
+            </div>
+            <div class="cell">
+                <img src="src/reshot-icon-sql-XS7VZH4DJP.svg" alt="sql logo">
+                <span>SQL</span>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="project" class="pro-sec">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="box">
+                <div class="box-content">
+                <h3>Railway Management System</h3>
+                <div class="box-img" style="background-image: url('src/train.png');">
+                </div>
+                <p>A functional project on railway management where an admin can manage the system and users can buy ticket smoothly.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h3>Online Library Store</h3>
+                    <div class="box-img" style="background-image: url('src/lib.png');">
+                    </div>
+                    <p>A project on online library store where a customer can browse through different section and buy their desired books</p>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h3>University Management System</h3>
+                    <div class="box-img" style="background-image: url('src/rsz_1uni.png');">
+                    </div>
+                    <p>A web-based platform for students and teachers to check academic and administrative statuses in real-time.</p>
+                    </div>
+            </div>
+       </div>
+    </section>
+
+    <section id="contact" class="cont-sec">
+        <h2>Contact Me</h2>
+        <div class="group">
+            <div class="text">
+                <p><strong>Email: </strong> hasnatbin2@gmail.com</p>
+                <p><strong>Address: </strong> Hathazari,Chittagong</p>
+                <p><strong>Phone: </strong> +8801876387733</p>
+                <p><strong>Facebook: </strong> <a href="https://www.facebook.com/hasnatbin.sayed1">Hasnat Bin</a></p>
+                <p><strong>Github:</strong> <a href="https://github.com/Hasnat-Sayed">Hasnat-Sayed</a></p>
+                
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+    </main>
+   
+    <footer>
+        <p>&copy; 2025 Hasnat Bin Sayed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
