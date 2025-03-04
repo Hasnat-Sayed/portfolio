@@ -31,25 +31,91 @@ nav .left a {
     margin: 0 10px;
   }
 
-/*about me*/
+/*home*/
 
-.about{
+.home{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 110px;
+    padding: 0 130px;
     margin: 50px 0;
     margin-bottom: 100px;
-    gap: 40px;
+    gap: 60px;
+    word-wrap: break-word;
 }
-.about .text h2{
+.home .text h2{
+    font-size: 40px;
+}
+
+.home .headshot img{
+    width: 350px;
+    border: 5px solid #3D518C;
+    border-radius: 50%;
+}
+
+.home button{
+    font-size: 16px;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    background-color: #578FCA;
+    box-shadow: 2px 2px 2px #091540;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.home p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.home  button:hover{
+    filter: brightness(.9);
+}
+
+
+/*about*/
+
+.about {
+    text-align: center;
+    padding: 0 130px;
+    margin-bottom: 100px;
+}
+
+.about h2{
     font-size: 35px;
 }
 
-.about .headshot img{
-    width: 350px;
-    border-radius: 50%;
-  }
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+.details-container {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 20px;
+    border: 0.1rem solid rgb(163, 163, 163);
+    flex: 1;
+}
+
+.details-container h3{
+    font-size: 22px;
+}
+
+.about-text {
+    font-size: 19px;
+    margin: 10px auto;
+}
+
+
+
 
 /*skills*/
 
@@ -104,19 +170,20 @@ nav .left a {
 
 .pro-sec .projects { 
     display: flex;
-    padding: 0 110px;
+    padding: 0 130px;
     justify-content: space-evenly;
     gap: 25px;
 }
 
 .box {
-    padding: 20px 0px 15px;
-    margin-top: 15px;
-    width: 33%;
-    height: 450px;
+    padding: 20px;
+    width: 90%;  
+    max-width: 400px; 
     background-color: #7692FF;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px #3D518C; 
+    box-shadow: 2px 2px 4px #3D518C;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .box .box-img{
     height: 300px;
@@ -133,7 +200,7 @@ nav .left a {
 
 /*Contact*/
 .cont-sec{
-    padding: 0px 110px;
+    padding: 0px 130px;
     margin-bottom: 100px;
     margin-top: 100px ;
 }
@@ -149,24 +216,35 @@ nav .left a {
 }
 .cont-sec .group .text{
    flex: 3;
-   margin-top: 20px;
+   padding: 20px 50px;
+   border-radius: 10px;
+   border: 2px solid black;
+   background-color: #eeeff1;
 }
 
 .cont-sec .group .text a{
     text-decoration: none;
+    color: black;
 }
 
-
+.cont-form{
+    background-color: #eeeff1;
+    border-radius: 10px;
+    border: 2px solid black;
+    flex: 3;
+    padding: 20px 50px;
+}
 .cont-sec .group form{
-    flex: 4;
+    
     display: flex;
     flex-direction: column;
+
 }
 
 .cont-sec .group form input,
 .cont-sec .group form textarea {
     font-family: 'Poppins' , sans-serif;
-    border: 2px solid #578FCA;
+    border: 2px solid #000000;
     padding: 10px;
     margin-bottom: 15px;
     outline: none;
@@ -180,6 +258,7 @@ nav .left a {
     font-family: 'Poppins' , sans-serif;
     color: white;
     background-color: #578FCA;
+    box-shadow: 2px 4px 3px #091540;
     border-radius: 5px;
     border: none;
     height: 50px;
@@ -197,3 +276,4 @@ footer{
     background-color: gray;
     height: 50px;
 }
+
